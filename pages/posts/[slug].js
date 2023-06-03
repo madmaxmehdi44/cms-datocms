@@ -35,7 +35,7 @@ export default function Post({ post, morePosts, preview }) {
               </Head>
               <PostHeader
                 title={post.title}
-                coverImage={post.coverImage}
+                coverImage={post.cover_image}
                 date={post.date}
                 author={post.author}
               />
